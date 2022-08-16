@@ -1,7 +1,6 @@
 .grid {
   display: flex;
   flex-direction: column;
-  border: 2px solid black;
 }
 
 .grid-row {
@@ -10,13 +9,15 @@
   flex: auto;
   height: 50px;
   width: 800px;
-  border: 2px solid red;
 }
 
 .grid-square {
   flex: auto;
   width: 50px;
-  aspect-ratio: 1/1;
-  border: 1px solid blue;
+  border: 1px dashed black;
+}
+
+.hover {
+  background-color: red;;
 }
 
