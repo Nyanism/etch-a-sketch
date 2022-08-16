@@ -1,23 +1,34 @@
 .grid {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  width: 960px;
+  height: 960px;
 }
 
 .grid-row {
   display: flex;
   flex-direction: row;
   flex: auto;
-  height: 50px;
-  width: 800px;
+  width: 960px;
 }
 
 .grid-square {
-  flex: auto;
-  width: 50px;
+  flex: 1;
   border: 1px dashed black;
 }
 
+.new-grid {
+  margin-bottom: 10px;
+}
+
 .hover {
-  background-color: red;;
+  background-color: red;
+}
+
+.grid-button {
+  display: flex;
+  justify-content: center;
+  width: 960px;
 }
 
